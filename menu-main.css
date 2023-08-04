@@ -1,0 +1,372 @@
+body {
+  background-color: #fee2b3;
+}
+
+/*changing the color of the header font to black*/
+.home-button, .menu-button, .about-button, .contact-button, 
+.discover-button {
+  color: black;
+}
+
+.menu-button {
+  color: black;
+  background-color: rgb(255, 82, 0);
+  padding: 7px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 10px;
+}
+
+.front-menu-image {
+  position: absolute;
+  right: 0;
+  height: 410px;
+  width: 1465px;
+  overflow: hidden;
+  display: flex;
+  left: 0;
+  padding: 0;
+  margin: 0;
+  margin-top: 70px;
+  border-bottom: 3px solid rgb(255, 82, 0);
+  border-top: 3px solid rgb(255, 82, 0);
+}
+
+.rock-text {
+  
+  position: absolute;
+  font-family: Nunito;
+  font-size: 80px;
+  font-weight: 700;
+  color: white;
+  top: 250px;
+  left: 170px;
+  z-index: 8;
+  pointer-events: none;
+}
+
+.straw-text {
+  display: flex;
+  position: absolute;
+  font-family: Nunito;
+  font-size: 80px;
+  font-weight: 700;
+  color: white;
+  top: 250px;
+  left: 920px;
+  z-index: 8;
+  pointer-events: none;
+}
+
+.first-front-image {
+  height: 410px;
+  width: 741.5px;
+  overflow: hidden;
+}
+
+.second-front-image {
+  height: 410px;
+  width: 741.5px;
+  border-left: 3px solid rgb(255, 82, 0);
+  overflow: hidden;
+}
+
+.pizza-front-image{
+  height: 500px;
+  transition: transform .5s, filter 0.17s;
+}
+
+.pizza-front-image:hover {
+  cursor: pointer;
+  filter: blur(4px);
+  transform: scale(1.1);
+}
+
+.burger-front-image{
+  height: 500px;
+  transition: transform .5s, filter 0.17s;
+}
+
+.burger-front-image:hover {
+  cursor: pointer;
+  filter: blur(4px);
+  transform: scale(1.1);
+}
+
+.breakfast-text {
+  background-color: orange;
+  padding: 5px;
+  width: 160px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-family: Nunito, sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  position: relative;
+  top: 550px;
+  left: 9px;
+}
+
+.the-main-menu {
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+  left: 0;
+  top: 630px;
+  height: 312px;
+  margin: 0;
+  padding: 0;
+  width: 1463px;
+}
+
+.options-one {
+  height: 310px;
+  width: 350px;
+  display: flex;
+  position: relative;
+}
+
+.italian-dish {
+  height: 180px;
+  position: relative;
+  top: 10px;
+  left: 14px;
+  border-radius: 10px;
+  border: 2px solid black;
+  transition: transform 0.7s;
+}
+
+.italian-dish:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.first-dish-name {
+  font-family: Playfair Display, sans-serif;
+  font-weight: 700;
+  white-space: nowrap;
+  font-size: 20px;
+  position: absolute;
+  top: 202px;
+  left: 25px;
+}
+
+.first-discription-text {
+  font-family: Nunito, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  position: absolute;
+  top: 235px;
+  left: 25px;
+}
+
+.first-prize-text {
+  font-family: Nunito, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  position: absolute;
+  top: 265px;
+  background-color: #50C878;
+  padding: 4px;
+  border-radius: 4px;
+  left: 25px;
+}
+
+.options-two {
+  height: 310px;
+  width: 350px;
+  display: flex;
+  position: relative;
+}
+
+.salted-dish {
+  height: 180px;
+  position: absolute;
+  top: 10px;
+  left: 14px;
+  border-radius: 10px;
+  border: 2px solid black;
+  transition: transform 0.7s;
+}
+
+.salted-dish:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.second-dish-name {
+  font-family: Playfair Display, sans-serif;
+  font-weight: 700;
+  white-space: nowrap;
+  font-size: 20px;
+  position: absolute;
+  top: 202px;
+  left: 25px;
+}
+
+.second-discription-text {
+  font-family: Nunito, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  position: absolute;
+  top: 235px;
+  left: 25px;
+}
+
+.second-prize-text {
+  font-family: Nunito, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  position: absolute;
+  top: 265px;
+  background-color: #50C878;
+  padding: 4px;
+  border-radius: 4px;
+  left: 25px;
+}
+
+.options-three {
+  height: 310px;
+  width: 350px;
+  display: flex;
+  position: relative;
+}
+
+.options-four {
+  height: 310px;
+  width: 350px;
+  display: flex;
+  position: relative;
+}
+
+.the-main-menu2 {
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+  left: 0;
+  top: 330px;
+  height: 312px;
+  margin: 0;
+  padding: 0;
+  width: 1463px;
+}
+
+.dinner-text {
+  background-color: orange;
+  padding: 1px;
+  width: 160px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-family: Nunito, sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  position: relative;
+  top: 1410px;
+  left: 9px;
+}
+
+.the-main-menu3 {
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+  left: 0;
+  top: 1540px;
+  height: 312px;
+  margin: 0;
+  padding: 0;
+  width: 1463px;
+}
+
+.juice-text {
+  background-color: orange;
+  padding: 1px;
+  width: 160px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-family: Nunito, sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  position: relative;
+  top: 1930px;
+  z-index: 2;
+  left: 9px;
+}
+
+.the-main-menu4 {
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+  left: 0;
+  top: 570px;
+  height: 312px;
+  margin: 0;
+  padding: 0;
+  width: 1463px;
+}
+
+.the-main-menu5 {
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+  left: 0;
+  top:330px;
+  height: 312px;
+  margin: 0;
+  padding: 0;
+  width: 1463px;
+}
+
+.dessert-text {
+  background-color: orange;
+  z-index: 6;
+  padding: 1px;
+  width: 160px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-family: Nunito, sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  position: relative;
+  top: 2780px;
+  z-index: 2;
+  left: 9px;
+}
+
+
+.the-main-menu6 {
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+  left: 0;
+  top:900px;
+  height: 312px;
+  margin: 0;
+  padding: 0;
+  width: 1463px;
+}
+
+.the-main-menu7 {
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+  left: 0;
+  top:330px;
+  height: 452px;
+  margin: 0;
+  padding: 0;
+  width: 1463px;
+}
+
+.copywrite-text {
+  white-space: nowrap;
+  bottom: 10px;
+  left: 565px;
+  position: absolute;
+  display: flex;
+}
+
+
